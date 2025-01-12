@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/flask
 # Edit at https://www.toptal.com/developers/gitignore?templates=flask
 
@@ -8,6 +9,8 @@ instance/*
 .env
 
 ### Flask.Python Stack ###
+=======
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -73,6 +76,10 @@ db.sqlite3-journal
 
 # Flask stuff:
 instance/
+<<<<<<< HEAD
+=======
+.webassets-cache
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
 
 # Scrapy stuff:
 .scrapy
@@ -103,6 +110,15 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+<<<<<<< HEAD
+=======
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -115,8 +131,15 @@ ipython_config.py
 #pdm.lock
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
+<<<<<<< HEAD
 #   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
+=======
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -129,6 +152,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
 .venv
 env/
 venv/
@@ -167,4 +194,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
 # End of https://www.toptal.com/developers/gitignore/api/flask
+=======
+# PyPI configuration file
+.pypirc
+>>>>>>> 10f2329ec2d7f78e965766c0eb5c5f3b1513d475
